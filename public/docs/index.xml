@@ -1,0 +1,323 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ProxHome – Docs</title>
+    <link>http://localhost:1313/docs/</link>
+    <description>Recent content in Docs on ProxHome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Introduction</title>
+      <link>http://localhost:1313/docs/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/introduction/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Welcome to my ProxHome HomeLab Documentation!&lt;/p&gt;
+&lt;h2&gt;What is ProxHome?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;what-is-proxhome&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-is-proxhome&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ProxHome is my approach to tinker with technology and building a versatile home lab using open-source technologies like Proxmox, pfSense, Tailscale, ELK stack and TrueNAS. It enables me to test my knowledge and hone it in a controlled and secure environment keeping my coureswork and imporant data isolated from the stuff I am working on, enabling me to experiment with virtualized environments, networking strategies, and software integrations securely and conveniently at home.&lt;/p&gt;
+&lt;h2&gt;Network Topology&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;network-topology&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#network-topology&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/ProxHome.png&#34; alt=&#34;Network&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;Configuration&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;configuration&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#configuration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hextra-cards hx-mt-4 hx-gap-4 hx-grid not-prose&#34; style=&#34;--hextra-cards-grid-cols: 3;&#34;&gt;
+  &lt;a
+    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;http://localhost:1313/docs/hardware/&#34;
+      &gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-pt-4 hx-px-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z&#34;/&gt;&lt;/svg&gt;Hardware Configuration&lt;/span&gt;&lt;div class=&#34;hextra-card-subtitle hx-line-clamp-3 hx-text-sm hx-font-normal hx-text-gray-500 dark:hx-text-gray-400 hx-px-4 hx-mb-4 hx-mt-2&#34;&gt;Overview of the hardware powering the ProxHome.&lt;/div&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;http://localhost:1313/docs/network/&#34;
+      &gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-pt-4 hx-px-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9&#34;/&gt;&lt;/svg&gt;Network Configuration&lt;/span&gt;&lt;div class=&#34;hextra-card-subtitle hx-line-clamp-3 hx-text-sm hx-font-normal hx-text-gray-500 dark:hx-text-gray-400 hx-px-4 hx-mb-4 hx-mt-2&#34;&gt;Managing virtual networks within Proxmox.&lt;/div&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;http://localhost:1313/docs/firewall/&#34;
+      &gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-pt-4 hx-px-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z&#34;/&gt;&lt;/svg&gt;Firewall Configuration&lt;/span&gt;&lt;div class=&#34;hextra-card-subtitle hx-line-clamp-3 hx-text-sm hx-font-normal hx-text-gray-500 dark:hx-text-gray-400 hx-px-4 hx-mb-4 hx-mt-2&#34;&gt;Securing the network using pfSense firewall rules.&lt;/div&gt;&lt;/a&gt;
+  &lt;a
+    class=&#34;hextra-card hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-border hx-border-gray-200 hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 hover:hx-border-gray-300 hx-bg-transparent hx-shadow-sm dark:hx-border-neutral-800 hover:hx-bg-slate-50 hover:hx-shadow-md dark:hover:hx-border-neutral-700 dark:hover:hx-bg-neutral-900&#34;href=&#34;http://localhost:1313/docs/vpn/&#34;
+      &gt;&lt;span class=&#34;hextra-card-icon hx-flex hx-font-semibold hx-items-start hx-gap-2 hx-pt-4 hx-px-4 hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z&#34;/&gt;&lt;/svg&gt;VPN Configuration&lt;/span&gt;&lt;div class=&#34;hextra-card-subtitle hx-line-clamp-3 hx-text-sm hx-font-normal hx-text-gray-500 dark:hx-text-gray-400 hx-px-4 hx-mb-4 hx-mt-2&#34;&gt;Enabling remote access through Tailscale VPN.&lt;/div&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Features&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;features&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#features&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Powerful Virtualization&lt;/strong&gt; – ProxHome leverages Proxmox VE&amp;rsquo;s a purpose built hypervisor with an intuitive web interface to efficiently manage virtual machines and containers, ensuring flexibility and scalability.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Robust Network Security&lt;/strong&gt; – The lab integrates pfSense firewall/router capabilities, delivering advanced security features, VPN connectivity, and comprehensive network monitoring.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Seamless Remote Access&lt;/strong&gt; – TailScale provides secure, reliable remote connectivity within the lab environment, with minimal setup and low-maintenance operation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Observability&lt;/strong&gt; - ELK stack works as a centralized monitoring system which collect logs, and metrics from machines in DMZ, and LAN. This helps monitor and manage resources in a efficient way (In-progress)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Reliable Storage Management&lt;/strong&gt; – TrueNAS is used for data organization, advanced snapshotting, redundancy, and secure file-sharing, enhancing overall data resilience. (In-Progress)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Extensible and Customizable&lt;/strong&gt; – ProxHome offers extensibility through scripting, automation, thorough documentation, Configuration as a Code and powerful integrations, allowing flexible customization.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Optimized for Learning and Growth&lt;/strong&gt; – The project is structured to provide a practical, accessible learning environment suitable for all skill levels, from beginners to experienced IT professionals.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Questions or Feedback?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;questions-or-feedback&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#questions-or-feedback&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class=&#34;hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-yellow-100 hx-bg-yellow-50 hx-text-yellow-900 dark:hx-border-yellow-200/30 dark:hx-bg-yellow-700/30 dark:hx-text-yellow-200&#34;&gt;
+  &lt;div class=&#34;ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2&#34;&gt;&lt;div class=&#34;hx-select-none hx-text-xl&#34; style=&#34;font-family: &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;&#34;&gt;⚠️&lt;/div&gt;&lt;/div&gt;
+
+  &lt;div class=&#34;hx-w-full hx-min-w-0 hx-leading-7&#34;&gt;
+    &lt;div class=&#34;hx-mt-6 hx-leading-7 first:hx-mt-0&#34;&gt;ProxHome is still in &lt;strong&gt;active&lt;/strong&gt; development. Questions/Suggestions: &lt;a href=&#34;https://github.com/arbaaz29/ProxHome&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;open an issue&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Hardware Configuration</title>
+      <link>http://localhost:1313/docs/hardware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/hardware/</guid>
+      <description>
+        
+        
+        &lt;p&gt;To create a reliable yet compact setup, I&amp;rsquo;ve carefully selected the following hardware components:&lt;/p&gt;
+&lt;h4&gt;GMKTec M5 Plus Mini PC:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;gmktec-m5-plus-mini-pc&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#gmktec-m5-plus-mini-pc&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Processor&lt;/strong&gt;: AMD Ryzen 7 5825U (8C/16T, Up to 4.4GHz)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RAM&lt;/strong&gt;: 32GB DDR4&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Storage&lt;/strong&gt;: 1TB NVMe SSD&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Graphics&lt;/strong&gt;: Integrated AMD Radeon (Supports 4K@60Hz Output)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Networking&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;WiFi 6&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bluetooth 5.2&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ethernet&lt;/strong&gt; (2.5 GbE)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Operating System&lt;/strong&gt;: Proxmox VE 8.x (A baremetal hypervisor)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Cooling System&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;cooling-system&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#cooling-system&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;An external cooling system like fan can help maintain temprature and keep the system stable under stress.&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Network Configuration</title>
+      <link>http://localhost:1313/docs/network/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/network/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This guide outlines how the network topology is structured within the ProxHome homelab infrastructure, which is powered by Proxmox VE, pfSense, and Tailscale.&lt;/p&gt;
+&lt;h3&gt;Overview&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;overview&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/ProxHome.png&#34; alt=&#34;Network&#34; loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;ProxHome uses a virtualized network architecture segmented into three main subnets:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;WAN:&lt;/strong&gt; 192.168.1.1/24&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LAN:&lt;/strong&gt; 10.10.1.1/24&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DMZ:&lt;/strong&gt; 10.10.1.200/24&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A pfSense virtual firewall routes and filters traffic between these networks, enabling secure connectivity, isolation, and full-tunnel VPN access.&lt;/p&gt;
+&lt;h3&gt;Topology Components&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;topology-components&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#topology-components&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Proxmox VE Host&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;proxmox-ve-host&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#proxmox-ve-host&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Acts as the virtualization platform.&lt;/li&gt;
+&lt;li&gt;Provides virtual bridges (&lt;code&gt;vmbr0&lt;/code&gt;, &lt;code&gt;vmbr1&lt;/code&gt;, &lt;code&gt;vmbr2&lt;/code&gt;) to connect VMs to pfSense and the physical network.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Virtual Bridges (vmbr)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;virtual-bridges-vmbr&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#virtual-bridges-vmbr&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;vmbr0&lt;/strong&gt; – WAN bridge connected to the router (&lt;code&gt;192.168.1.0/24&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;vmbr1&lt;/strong&gt; – LAN bridge for internal VMs (&lt;code&gt;10.10.1.1/24&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;vmbr2&lt;/strong&gt; – DMZ bridge for exposed services (&lt;code&gt;10.10.200.1/24&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h4&gt;pfSense Firewall (VM)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;pfsense-firewall-vm&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#pfsense-firewall-vm&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Interfaces:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;net0 (WAN):&lt;/strong&gt; Connected to &lt;code&gt;vmbr0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;net1 (LAN):&lt;/strong&gt; Connected to &lt;code&gt;vmbr1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;net2 (DMZ):&lt;/strong&gt; Connected to &lt;code&gt;vmbr2&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Handles inter-VLAN routing, NAT, firewall rules, and VPN access.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Internal VMs&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;internal-vms&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#internal-vms&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Parrot Desktop VM&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Connected to LAN via &lt;code&gt;vmbr1&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ubuntu Server&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Connected to DMZ via &lt;code&gt;vmbr2&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;External Network&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;external-network&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#external-network&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;Router&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;router&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#router&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Default Gateway: &lt;code&gt;192.168.1.1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Provides internet access for the Proxmox host and pfSense WAN interface.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;External Access&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;external-access&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#external-access&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Devices on the &lt;code&gt;192.168.1.1/24&lt;/code&gt; subnet can access the pfSense WAN.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tailscale&lt;/strong&gt; provides full-tunnel VPN access, enabling remote access to internal services securely over the internet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;VPN Integration (Tailscale)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;vpn-integration-tailscale&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vpn-integration-tailscale&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Full-tunnel VPN routes traffic from external devices through pfSense.&lt;/li&gt;
+&lt;li&gt;Ensures encrypted remote access to LAN and DMZ resources.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Subnet Breakdown&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;subnet-breakdown&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#subnet-breakdown&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Network&lt;/th&gt;
+          &lt;th&gt;Subnet&lt;/th&gt;
+          &lt;th&gt;Purpose&lt;/th&gt;
+          &lt;th&gt;Bridge&lt;/th&gt;
+          &lt;th&gt;Devices&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;WAN&lt;/td&gt;
+          &lt;td&gt;192.168.1.0/24&lt;/td&gt;
+          &lt;td&gt;External access to Internet&lt;/td&gt;
+          &lt;td&gt;vmbr0&lt;/td&gt;
+          &lt;td&gt;pfSense (WAN), Router, Proxmox&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;LAN&lt;/td&gt;
+          &lt;td&gt;10.10.1.1/24&lt;/td&gt;
+          &lt;td&gt;Internal/Trusted VM network&lt;/td&gt;
+          &lt;td&gt;vmbr1&lt;/td&gt;
+          &lt;td&gt;Parrot VM&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;DMZ&lt;/td&gt;
+          &lt;td&gt;10.10.200.1/24&lt;/td&gt;
+          &lt;td&gt;Untrusted services&lt;/td&gt;
+          &lt;td&gt;vmbr2&lt;/td&gt;
+          &lt;td&gt;Ubuntu Server&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Firewall Configuration</title>
+      <link>http://localhost:1313/docs/firewall/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/firewall/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This guide covers the Firewall Configuration for the ProxHome homelab, utilizing pfSense as the primary firewall and router. The firewall sits at the core of the ProxHome network topology and manages traffic between WAN, LAN, and DMZ subnets, as well as access control for services and remote VPN connections via Tailscale.&lt;/p&gt;
+&lt;h3&gt;Firewall Overview&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;firewall-overview&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#firewall-overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;ProxHome uses &lt;strong&gt;pfSense&lt;/strong&gt;, a robust open-source firewall/router software, deployed as a virtual machine inside the Proxmox environment. pfSense handles:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Inter-VLAN Routing&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NAT and Port Forwarding&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Traffic Filtering (Inbound &amp;amp; Outbound)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VPN Gateway via Tailscale&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Access Control between LAN, DMZ, and WAN&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Interface Mapping&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;interface-mapping&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#interface-mapping&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Interface&lt;/th&gt;
+          &lt;th&gt;pfSense Name&lt;/th&gt;
+          &lt;th&gt;Bridge&lt;/th&gt;
+          &lt;th&gt;Subnet&lt;/th&gt;
+          &lt;th&gt;Purpose&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;net0&lt;/td&gt;
+          &lt;td&gt;WAN&lt;/td&gt;
+          &lt;td&gt;vmbr0&lt;/td&gt;
+          &lt;td&gt;192.168.1.1/24&lt;/td&gt;
+          &lt;td&gt;External / Internet access&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;net1&lt;/td&gt;
+          &lt;td&gt;LAN&lt;/td&gt;
+          &lt;td&gt;vmbr1&lt;/td&gt;
+          &lt;td&gt;10.10.1.1/24&lt;/td&gt;
+          &lt;td&gt;Internal trusted network&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;net2&lt;/td&gt;
+          &lt;td&gt;DMZ&lt;/td&gt;
+          &lt;td&gt;vmbr2&lt;/td&gt;
+          &lt;td&gt;10.10.200.1/24&lt;/td&gt;
+          &lt;td&gt;Exposed services network&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>VPN Configuration</title>
+      <link>http://localhost:1313/docs/vpn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/vpn/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This section covers how VPN access is configured in the ProxHome homelab using Tailscale. Tailscale provides secure, encrypted, and authenticated remote access to internal services across the LAN and DMZ without the complexity of traditional VPNs.&lt;/p&gt;
+&lt;h3&gt;Why Tailscale?&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;why-tailscale&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#why-tailscale&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Tailscale is a mesh VPN built on &lt;strong&gt;WireGuard&lt;/strong&gt;, designed to simplify secure networking across devices and networks. It is ideal for homelabs because:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zero-config&lt;/strong&gt; networking over the internet&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Device-level access control (ACLs)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Works through NAT/firewalls&lt;/strong&gt; works like a magic. No need to configure NATs to allow access, it can travel through NAT to allow access to machines&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Supports full-tunnel VPN routing&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;ProxHome VPN Topology&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;proxhome-vpn-topology&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#proxhome-vpn-topology&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Tailscale is installed on the &lt;strong&gt;Ubuntu-server VM&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;A subnet is advertised, this enables tailscale to integrate the advertised subnet into its network. The routes advertised are &lt;strong&gt;LAN&lt;/strong&gt; (&lt;code&gt;10.10.1.1/24&lt;/code&gt;) and &lt;strong&gt;DMZ&lt;/strong&gt; (&lt;code&gt;10.10.200.1/24&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;After advertising the routes, enable &lt;strong&gt;Exit Node&lt;/strong&gt;. Enable exit node so that the traffic can be proxied through the network via the Ubuntu Server with tailscale installed on it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Note:&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;note&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#note&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Why not install Tailscale directly on pfsense?
+&lt;ul&gt;
+&lt;li&gt;While installing Tailscale directly on pfSense may seem like an efficient approach, it poses significant security risks. In the event of a zero-day remote code execution (RCE) vulnerability in Tailscale, an attacker could potentially gain elevated privileges, modify routing tables, block network traffic, and even lock out administrative access. Avoiding direct installation helps minimize the impact of a potential supply chain compromise and protects the integrity of the entire network.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
