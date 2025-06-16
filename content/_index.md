@@ -1,5 +1,5 @@
 ---
-title: ProxLink
+title: ProxHome
 layout: hextra-home
 ---
 
@@ -47,7 +47,7 @@ layout: hextra-home
   {{< hextra/feature-card
     title="ELK Stack (In-progress)"
     icon="binoculars"
-    subtitle="Centralize log and metric collection with the ELK Stack — Elasticsearch, Logstash, and Kibana. Gain observability across services using dashboards, filters, and alerts. Extend visibility using Beats, APM agents, and custom pipeline integrations."
+    subtitle="Centralize log and metric collection with the ELK Stack - Elasticsearch, Logstash, and Kibana. Gain observability across services using dashboards, filters, and alerts. Extend visibility using Beats, APM agents, and custom pipeline integrations."
   >}}
   {{< hextra/feature-card
     title="TrueNAS (In-progress)"

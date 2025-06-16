@@ -9,7 +9,7 @@ Welcome to my ProxHome HomeLab Documentation!
 
 ## What is ProxHome?
 
-ProxHome is my approach to tinker with technology and building a versatile home lab using open-source technologies like Proxmox, pfSense, Tailscale, ELK stack and TrueNAS. It enables me to test my knowledge and hone it in a controlled and secure environment keeping my coureswork and imporant data isolated from the stuff I am working on, enabling me to experiment with virtualized environments, networking strategies, and software integrations securely and conveniently at home.
+ProxHome is my personal initiative to explore and experiment with technology by building a versatile home lab using open-source tools such as Proxmox, pfSense, Tailscale, the ELK stack, and TrueNAS. It serves as a secure and controlled environment where I can deepen my understanding of virtualization, networking, and software integration. By isolating my coursework and critical data from experimental setups, ProxHome allows me to test concepts safely and conveniently from home.
 
 
 ## Network Topology
