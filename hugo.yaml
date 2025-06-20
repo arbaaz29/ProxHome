@@ -29,7 +29,7 @@ menu:
         type: search
     - name: GitHub
       weight: 4
-      url: "https://github.com/arbaaz29/ProxHome"
+      url: "https://github.com/arbaaz29"
       params:
         icon: github
 
