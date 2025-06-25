@@ -42,5 +42,5 @@ ProxHome is my personal initiative to explore and experiment with technology by 
 ## Questions or Feedback?
 
 {{< callout type="warning" >}}
-  ProxHome is still in **active** development. Questions/Suggestions: [open an issue](https://github.com/arbaaz29/ProxHome)
+  ProxHome is still in **active** development. Questions/Suggestions: [open an issue](https://github.com/arbaaz29/ProxHome/issues)
 {{< /callout >}}
