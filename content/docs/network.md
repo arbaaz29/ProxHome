@@ -12,7 +12,7 @@ ProxHome uses a virtualized network architecture segmented into three main subne
 
 - **WAN:** 192.168.1.1/24
 - **LAN:** 10.10.1.1/24
-- **DMZ:** 10.10.1.200/24
+- **DMZ:** 10.10.200.1/24
 
 A pfSense virtual firewall routes and filters traffic between these networks, enabling secure connectivity, isolation, and full-tunnel VPN access.
 
